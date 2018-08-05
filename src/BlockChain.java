@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class BlockChain {
 	
 	public static ArrayList<Block> blockchain = new ArrayList<Block>();
-	public static int difficulty = 1; //lol
+	public static int difficulty = 10; //lol
 
 	public static void main(String[] args) {	
 		//add our blocks to the blockchain ArrayList:
