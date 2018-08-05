@@ -9,7 +9,7 @@ public class BlockChain {
 		//add our blocks to the blockchain ArrayList:
 		
 		System.out.println("Trying to Mine block 1... ");
-		addBlock(new Block("Hi im the first block", "0"));
+		addBlock(new Block("Hi im the first block", "0")); //mining examples
 		
 		System.out.println("Trying to Mine block 2... ");
 		addBlock(new Block("Yo im the second block",blockchain.get(blockchain.size()-1).hash));
