@@ -2,7 +2,7 @@ import java.util.Date;
 
 public class Block {
 //hola
-
+//hola
 //youwatmate
 		public String hash;
 		public String previousHash;
